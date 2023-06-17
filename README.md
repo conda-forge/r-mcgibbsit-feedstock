@@ -1,11 +1,11 @@
-About r-mcgibbsit
-=================
+About r-mcgibbsit-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcgibbsit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=mcgibbsit
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcgibbsit-feedstock/blob/main/LICENSE.txt)
 
 Summary: 'mcgibbsit' provides an implementation of Warnes & Raftery's MCGibbsit run-length diagnostic for a set of (not-necessarily independent) MCMC samplers.  It combines the estimate error-bounding approach of the Raftery and Lewis MCMC run length diagnostic with the between verses within chain approach of the Gelman and Rubin MCMC convergence diagnostic.
 
