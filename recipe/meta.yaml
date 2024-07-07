@@ -1,6 +1,5 @@
 {% set version = "1.2.2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mcgibbsit
@@ -13,8 +12,7 @@ source:
   sha256: bc6ad411ffcda7838f8f5a8dd054a5a173c3a669fee9e3d2175cf57fca136ffa
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
